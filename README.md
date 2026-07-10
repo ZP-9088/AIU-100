@@ -11,3 +11,7 @@
 
 3. SENSING, SG8-OX08BC-5300-GMSL2
 <img width="789" height="702" alt="image" src="https://github.com/user-attachments/assets/693f00db-7dad-4104-9172-ba8831dd8ba0" />
+
+# 支持驱动AX210NGW型号的WIFI
+
+# 支持驱动CUX3510型号的10G Phy
