@@ -1,0 +1,1006 @@
+// SPDX-License-Identifier: GPL-2.0-only
+// SPDX-FileCopyrightText: Copyright (c) 2018-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+/*
+ * Camera module: SG8-OX08BC-5300-GMSL2
+ *   Sensor: OmniVision OX08B40 (8.3MP)
+ *   ISP:    GW5300 (I2C 0x6D/7bit)
+ *   SerDes: MAX9295A → MAX96724 (zuojisi)
+ *   Output: YUV422 8bit, 3840x2160@30fps
+ */
+
+/dts-v1/;
+/plugin/;
+
+#define CAM0_RST    TEGRA234_MAIN_GPIO(H, 3)
+#define CAM0_PWDN    TEGRA234_MAIN_GPIO(H, 6)
+#define CAM1_PWDN    TEGRA234_MAIN_GPIO(AC, 0)
+#define CAM_I2C_MUX     TEGRA234_AON_GPIO(CC, 3)
+
+#include <dt-bindings/tegra234-p3767-0000-common.h>
+
+/ {
+	overlay-name = "AIU-100 SG8-OX08BC-5300-GMSL2 Camera";
+	jetson-header-name = "Jetson AGX CSI Connector";
+	compatible = JETSON_COMPATIBLE;
+
+	fragment@0 {
+		target-path = "/";
+
+		__overlay__ {
+			zuojisi {
+				base {
+					label = "xcbase 20250517";
+				};
+				branch {
+					label = "CIG AIU-100 with SG8-OX08BC-5300-GMSL2 camera";
+				};
+			};
+			tegra-capture-vi {
+				num-channels = <8>;
+				ports {
+					#address-cells = <1>;
+					#size-cells = <0>;
+					status = "okay";
+					port@0 {
+						status = "okay";
+						reg = <0>;
+						z_ox08b_5300_9295_vi_in0: endpoint {
+							status = "okay";
+							vc-id = <0>;
+							port-index = <4>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out0>;
+						};
+					};
+					port@1 {
+						status = "okay";
+						reg = <1>;
+						z_ox08b_5300_9295_vi_in1: endpoint {
+							status = "okay";
+							vc-id = <1>;
+							port-index = <4>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out1>;
+						};
+					};
+					port@2 {
+						status = "okay";
+						reg = <2>;
+						z_ox08b_5300_9295_vi_in2: endpoint {
+							status = "okay";
+							vc-id = <0>;
+							port-index = <5>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out2>;
+						};
+					};
+					port@3 {
+						status = "okay";
+						reg = <3>;
+						z_ox08b_5300_9295_vi_in3: endpoint {
+							status = "okay";
+							vc-id = <1>;
+							port-index = <5>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out3>;
+						};
+					};
+					port@4 {
+						status = "okay";
+						reg = <4>;
+						z_ox08b_5300_9295_vi_in4: endpoint {
+							status = "okay";
+							vc-id = <0>;
+							port-index = <0>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out4>;
+						};
+					};
+					port@5 {
+						status = "okay";
+						reg = <5>;
+						z_ox08b_5300_9295_vi_in5: endpoint {
+							status = "okay";
+							vc-id = <1>;
+							port-index = <0>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out5>;
+						};
+					};
+					port@6 {
+						status = "okay";
+						reg = <6>;
+						z_ox08b_5300_9295_vi_in6: endpoint {
+							status = "okay";
+							vc-id = <0>;
+							port-index = <2>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out6>;
+						};
+					};
+					port@7 {
+						status = "okay";
+						reg = <7>;
+						z_ox08b_5300_9295_vi_in7: endpoint {
+							status = "okay";
+							vc-id = <1>;
+							port-index = <2>;
+							bus-width = <4>;
+							remote-endpoint = <&z_ox08b_5300_9295_csi_out7>;
+						};
+					};
+				};
+			};
+			tegra-camera-platform {
+				compatible = "nvidia, tegra-camera-platform";
+				num_csi_lanes = <16>;
+				max_lane_speed = <4000000>;
+				min_bits_per_pixel = <16>;
+				vi_peak_byte_per_pixel = <2>;
+				vi_bw_margin_pct = <25>;
+				max_pixel_rate = <7500000>;
+				isp_peak_byte_per_pixel = <5>;
+				isp_bw_margin_pct = <25>;
+			};
+			bus@0{
+				host1x@13e00000 {
+					nvcsi@15a00000 {
+						num-channels = <8>;
+						#address-cells = <1>;
+						#size-cells = <0>;
+						channel@0 {
+							status = "okay";
+							reg = <0>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in0: endpoint@0 {
+										status = "okay";
+										port-index = <4>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out0>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out0: endpoint@1 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in0>;
+									};
+								};
+							};
+						};
+						channel@1 {
+							status = "okay";
+							reg = <1>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in1: endpoint@2 {
+										status = "okay";
+										port-index = <4>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out1>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out1: endpoint@3 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in1>;
+									};
+								};
+							};
+						};
+						channel@2 {
+							status = "okay";
+							reg = <2>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in2: endpoint@4 {
+										status = "okay";
+										port-index = <6>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out2>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out2: endpoint@5 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in2>;
+									};
+								};
+							};
+						};
+						channel@3 {
+							status = "okay";
+							reg = <3>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in3: endpoint@6 {
+										status = "okay";
+										port-index = <6>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out3>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out3: endpoint@7 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in3>;
+									};
+								};
+							};
+						};
+						channel@4 {
+							status = "okay";
+							reg = <4>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in4: endpoint@8 {
+										status = "okay";
+										port-index = <0>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out4>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out4: endpoint@9 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in4>;
+									};
+								};
+							};
+						};
+						channel@5 {
+							status = "okay";
+							reg = <5>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in5: endpoint@10 {
+										status = "okay";
+										port-index = <0>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out5>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out5: endpoint@11 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in5>;
+									};
+								};
+							};
+						};
+						channel@6 {
+							status = "okay";
+							reg = <6>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in6: endpoint@12 {
+										status = "okay";
+										port-index = <2>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out6>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out6: endpoint@13 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in6>;
+									};
+								};
+							};
+						};
+						channel@7 {
+							status = "okay";
+							reg = <7>;
+							ports {
+								status = "okay";
+								#address-cells = <1>;
+								#size-cells = <0>;
+								port@0 {
+									status = "okay";
+									reg = <0>;
+									z_ox08b_5300_9295_csi_in7: endpoint@14 {
+										status = "okay";
+										port-index = <2>;
+										bus-width = <4>;
+										remote-endpoint = <&z_ox08b_5300_9295_cam_out7>;
+									};
+								};
+								port@1 {
+									status = "okay";
+									reg = <1>;
+									z_ox08b_5300_9295_csi_out7: endpoint@15 {
+										status = "okay";
+										remote-endpoint = <&z_ox08b_5300_9295_vi_in7>;
+									};
+								};
+							};
+						};
+					};
+				};
+
+				/* MAX96724 解串器 0: i2c@c250000, CSI serial_g (port-index 6), 4路 MAX9295A */
+				i2c@c250000 {
+					z_dser_0: z_max96724 {
+						status = "okay";
+						compatible = "zuojisi,z_max96724";
+						reg = <0x2e>;
+						mipi-2x4-mode; /* 800W摄像头使用2x4模式 */
+					};
+					z_ox08b_5300_9295_a {
+						status = "okay";
+						def-addr = <0x6d>; /* GW5300 ISP 默认 I2C 地址 (0xDA/8bit = 0x6D/7bit) */
+						nvidia,gmsl-dser-device = <&z_dser_0>;
+						des-link = "A";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x10>; /* MAX9295A 转译后的 I2C 地址 */
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 { /* 3840x2160 YUV422 8bit 30fps */
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_e";
+							vc_id = "0";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out0: endpoint {
+									vc-id = <0>;
+									port-index = <4>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in0>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_b {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_0>;
+						des-link = "B";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x11>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_e";
+							vc_id = "1";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out1: endpoint {
+									vc-id = <1>;
+									port-index = <4>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in1>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_c {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_0>;
+						des-link = "C";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x12>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_g";
+							vc_id = "0";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out2: endpoint {
+									vc-id = <0>;
+									port-index = <6>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in2>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_d {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_0>;
+						des-link = "D";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x13>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_g";
+							vc_id = "1";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out3: endpoint {
+									vc-id = <1>;
+									port-index = <6>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in3>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+				};
+
+				/* MAX96724 解串器 1: i2c@3180000, CSI serial_c (port-index 2), 4路 MAX9295A */
+				i2c@3180000 {
+					z_dser_1: z_max96724 {
+						status = "okay";
+						compatible = "zuojisi,z_max96724";
+						reg = <0x27>;
+						is-master;
+						mipi-2x4-mode; /* 800W摄像头使用2x4模式 */
+					};
+					z_ox08b_5300_9295_a {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_1>;
+						des-link = "A";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x10>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_a";
+							vc_id = "0";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+							lane_polarity = "0";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out4: endpoint {
+									vc-id = <0>;
+									port-index = <0>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in4>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_b {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_1>;
+						des-link = "B";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x11>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_a";
+							vc_id = "1";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+							lane_polarity = "0";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out5: endpoint {
+									vc-id = <1>;
+									port-index = <0>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in5>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_c {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_1>;
+						des-link = "C";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x12>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_c";
+							vc_id = "0";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+							lane_polarity = "0";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out6: endpoint {
+									vc-id = <0>;
+									port-index = <2>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in6>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+					z_ox08b_5300_9295_d {
+						status = "okay";
+						def-addr = <0x6d>;
+						nvidia,gmsl-dser-device = <&z_dser_1>;
+						des-link = "D";
+
+						compatible = "zuojisi,z_ox08b_5300_9295";
+						reg = <0x13>;
+
+						physical_w = "15.0";
+						physical_h = "12.5";
+						sensor_model = "ox08b40";
+						post_crop_frame_drop = "0";
+						use_decibel_gain = "true";
+						use_sensor_mode_id = "true";
+
+						mode0 {
+							mclk_khz = "24000";
+							num_lanes = "4";
+							tegra_sinterface = "serial_c";
+							vc_id = "1";
+							phy_mode = "DPHY";
+							discontinuous_clk = "no";
+							dpcm_enable = "false";
+							cil_settletime = "0";
+							dynamic_pixel_bit_depth = "16";
+							csi_pixel_bit_depth = "16";
+							mode_type = "yuv";
+							pixel_phase = "yuyv";
+							lane_polarity = "0";
+
+							active_w = "3840";
+							active_h = "2160";
+							readout_orientation = "0";
+							line_length = "3840";
+							inherent_gain = "1";
+							mclk_multiplier = "24";
+							pix_clk_hz = "300000000";
+							serdes_pix_clk_hz = "600000000";
+
+							gain_factor = "1000";
+							min_gain_val = "1";
+							max_gain_val = "72000";
+							step_gain_val = "300";
+							default_gain = "1";
+							min_hdr_ratio = "1";
+							max_hdr_ratio = "1";
+							framerate_factor = "1000000";
+							min_framerate = "30000000";
+							max_framerate = "30000000";
+							step_framerate = "1";
+							default_framerate = "30000000";
+							exposure_factor = "1000000";
+							min_exp_time = "15";
+							max_exp_time = "30000";
+							step_exp_time = "1";
+							default_exp_time = "30000";
+							embedded_metadata_height = "0";
+						};
+						ports {
+							#address-cells = <1>;
+							#size-cells = <0>;
+							port@0 {
+								reg = <0>;
+								z_ox08b_5300_9295_cam_out7: endpoint {
+									vc-id = <1>;
+									port-index = <2>;
+									bus-width = <4>;
+									remote-endpoint = <&z_ox08b_5300_9295_csi_in7>;
+								};
+							};
+						};
+						gmsl-link {
+							num-ser-lanes = <4>;
+							streams = "yuv16";
+						};
+					};
+				};
+			};
+		};
+	};
+};
