@@ -1,0 +1,398 @@
+0x6c18dc6a	ieee80211_disconnect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc9db4d77	ieee80211_wake_queues	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9be1e7e6	cfg80211_external_auth_request	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x6f3a71bf	ieee80211_unreserve_tid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x3df42ef1	ieee80211_queue_stopped	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x8de6ddd1	wdev_to_ieee80211_vif	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x78971d7e	iwl_he_is_sgi	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xd1e69877	__SCK__tp_func_iwlwifi_dev_ucode_cont_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0xc04b84df	iwl_tm_set_fw_ver	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe75b7e77	iwl_notification_wait	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x338a2b2a	wiphy_to_ieee80211_hw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x60c8b586	cfg80211_sched_scan_stopped_locked	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb3c88694	cfg80211_ch_switch_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x167b51be	cfg80211_notify_new_peer_candidate	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x3d23c104	__tracepoint_iwlwifi_dev_ucode_wrap_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0x6e3bb66e	iwl_drv_switch_op_mode	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xf5596d89	cfg80211_get_p2p_attr	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x1fd5446c	iwl_parse_nvm_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x3d436f89	iwl_trans_send_cmd	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x117aca91	cfg80211_merge_profile	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa94fde7a	ieee80211_rx_list	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe8c639df	ieee80211_stop_tx_ba_cb_irqsafe	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xb2ef0b3a	ieee80211_sched_scan_stopped	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x5d1970ff	iwl_fw_dbg_collect_trig	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc85a3cf4	iwl_opmode_register	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x1425700d	ieee80211_nan_func_terminated	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x6bedf402	ieee80211_freq_khz_to_channel	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x7f85d9e1	iwl_fw_runtime_suspend	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x7c3ac925	ieee80211_get_vht_max_nss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x5988395c	iwl_notification_wait_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5d8c375f	__iwl_dbg	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x7b834ef8	ieee80211_tx_dequeue	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x060c94d4	ieee80211_queue_delayed_work	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x672b68c8	iwl_write_prph_delay	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x1a2e924b	ieee80211_sta_pspoll	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x26f0a3ff	cfg80211_vendor_cmd_get_sender	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
+0x455f13bb	iwl_sar_select_profile	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe1e7071c	ieee80211_tdls_oper_request	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x1218ca72	cfg80211_sched_scan_results	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x59dd435c	ieee80211_get_hdrlen_from_skb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xf18b782c	cfg80211_update_owe_info_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x14eef62f	ieee80211_alloc_hw_nm	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc3109f03	iwl_poll_direct_bit	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x201fd6a3	__traceiter_iwlwifi_dev_ucode_cont_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0x448778bb	ieee80211_next_txq	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x73dd7cc9	cfg80211_chandef_usable	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x0bef3527	cfg80211_iter_combinations	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x9db9f79a	iwl_parse_mei_nvm_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xf9f55839	ieee80211_stop_tx_ba_session	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe4d327bf	iwl_fw_runtime_resume	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xfaf456c7	iwl_set_bits_prph	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xf5e59570	iwl_parse_nvm_mcc_info	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x6f4216b2	__ieee80211_get_radio_led_name	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x0cc95bc2	ieee80211_s1g_channel_width	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xf62527c4	ieee80211_queue_work	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x8bc28648	__cfg80211_alloc_event_skb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x776221bf	iwl_send_phy_db_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe045b002	ieee80211_sta_recalc_aggregates	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x7ef39823	ieee80211_hdrlen	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa8752cb3	ieee80211_csa_finish	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xcef6f4d6	ieee80211_stop_queue	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x0e9b048d	cfg80211_chandef_dfs_required	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbbfda70f	wiphy_read_of_freq_limits	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x97644da8	ieee80211_iter_keys_rcu	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x7969aa0a	__iwl_warn	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x3a88de1a	ieee80211_mark_rx_ba_filtered_frames	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x1332e4de	iwl_abort_notification_waits	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5987fe45	iwl_fw_lookup_assert_desc	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	
+0x122e2ac9	iwl_acpi_get_mcc	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x57c21a17	cfg80211_unlink_bss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x482cbc3d	iwl_write_prph_no_grab	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x7dde1730	iwl_fwrt_dump_error_logs	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5c52e109	iwl_opmode_deregister	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x9ea1fbfd	cfg80211_assoc_failure	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x767f3605	iwl_fw_dbg_read_d3_debug_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc459a474	ieee80211_restart_hw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x418959f2	ieee80211_sched_scan_results	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc419da05	get_wiphy_regdom	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2c1c6129	ieee80211_sta_uapsd_trigger	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe7167e62	__ieee80211_get_tx_led_name	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe6d11e17	iwl_tm_gnl_send_msg	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xb2322be1	ieee80211_get_num_supported_channels	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xeb3c1385	cfg80211_put_bss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x6577eb22	cfg80211_send_layer2_update	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x4c6b479f	iwl_cmd_groups_verify_sorted	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x1b5a3a7e	cfg80211_sinfo_alloc_tid_stats	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x3cc3eb55	ieee80211_report_wowlan_wakeup	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x6d9f5a3d	cfg80211_remain_on_channel_expired	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x9970555b	iwl_get_nvm	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x31be85b3	ieee80211_remain_on_channel_expired	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xc6fdadd6	__traceiter_iwlwifi_dev_ucode_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0xbd0b34ac	ieee80211_calc_rx_airtime	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x19e84b60	cfg80211_rx_mlme_mgmt	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x7322cd22	cfg80211_tx_mlme_mgmt	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xcc1a7c48	cfg80211_is_element_inherited	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa064e893	cfg80211_cqm_txe_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x0b4196f7	ieee80211_hw_restart_disconnect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x2710c362	iwl_dump_desc_assert	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x62245612	cfg80211_ref_bss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x50d91890	ieee80211_iterate_stations_atomic	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xb43a926b	backport_dependency_symbol	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/compat/compat	EXPORT_SYMBOL_GPL	
+0x59e1959f	cfg80211_register_netdevice	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x275269b3	ieee80211_ie_split_ric	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x79b82a71	cfg80211_find_vendor_elem	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x404aae27	ieee80211_rx_napi	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc990315c	ieee80211_disable_rssi_reports	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x7d44fd62	ieee80211_find_sta_by_link_addrs	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x9e6d35c3	ieee80211_get_tx_rates	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x03d6b495	iwl_dnt_dev_if_read_sram	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xff2370c9	iwl_acpi_get_lari_config_bitmap	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5584448a	ieee80211_channel_to_freq_khz	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x62a9d20a	__cfg80211_alloc_reply_skb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x93a0ff3f	cfg80211_conn_failed	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbd745b19	cfg80211_rx_spurious_frame	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x58bc6fc4	cfg80211_mgmt_tx_status_ext	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x58a0af26	cfg80211_control_port_tx_status	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xcc1b8f30	ieee80211_manage_rx_ba_offl	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9d6cba30	cfg80211_find_elem_match	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2adb1812	iwl_fw_dbg_collect_desc	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x97b516c7	ieee80211_mandatory_rates	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2099fbd6	iwl_init_paging	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x429c0c31	ieee80211_bss_get_elem	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2ba6ae65	ieee80211_rate_control_register	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9c3b8330	iwl_force_nmi	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x76389844	iwl_set_bits_mask_prph	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x3dce3949	ieee80211_ctstoself_duration	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x20c49fae	__ieee80211_get_assoc_led_name	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xf88964e4	iwl_remove_notification	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x84bb50e1	iwl_rs_pretty_ant	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x277f285a	cfg80211_crit_proto_stopped	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xfcea4e5c	ieee80211_ready_on_channel	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x99a197d6	cfg80211_ready_on_channel	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x04886213	iwl_read_prph	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc85746e7	cfg80211_classify8021d	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x07fb527a	cfg80211_cac_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x73edfe3d	ieee80211_nan_func_match	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9e9ba32a	ieee80211_beacon_set_cntdwn	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xb0b95be0	ieee80211_generic_frame_duration	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xd73a193b	ieee80211_color_change_finish	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xfc1e6f41	iwl_guid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x41f2fe29	iwl_dnt_dispatch_collect_ucode_message	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x9a0ab58c	cfg80211_vendor_cmd_reply	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
+0x0a71ae9d	ieee80211_start_tx_ba_cb_irqsafe	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x687fda8e	ieee80211_sta_block_awake	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc93eb68c	ieee80211_channel_switch_disconnect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x0b5c011c	wiphy_register	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xad3aad14	ieee80211_beacon_get_tim	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x16ad7c5f	ieee80211_tkip_add_iv	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xb7d5ffb1	iwl_rate_mcs	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x3a7faec2	cfg80211_cqm_rssi_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x08b563cf	ieee80211_beacon_get_template	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9b830235	iwl_acpi_get_eckv	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x466ae44d	__SCK__tp_func_iwlwifi_dev_ucode_wrap_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0xc1227b68	ieee80211_start_tx_ba_session	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9e1c1431	ieee80211_key_replay	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x5445020a	iwl_fw_start_dbg_conf	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x4e3d06ab	_dmi_get_system_info	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5046773d	iwl_tm_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x8fa02936	cfg80211_free_nan_func	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xdcb27a03	ieee80211_tx_rate_update	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xf61449e9	cfg80211_roamed	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x5c1c4049	cfg80211_check_station_change	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x01cd58e6	ieee80211_cqm_rssi_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x29f98f0f	__iwl_crit	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x02cf2136	__cfg80211_send_event_skb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x203b5d8d	wiphy_free	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbdab7182	ieee80211_vif_to_wdev	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x1cf75d45	ieee80211_get_tkip_p1k_iv	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xd21086a2	iwl_sar_get_wgds_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x9e58fbab	iwl_sar_get_wrds_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xdab3f403	ieee80211_txq_may_transmit	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xca895a41	iwl_acpi_get_wifi_pkg_range	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xa66d16cd	ieee80211_txq_schedule_start	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xd54b6306	iwl_fw_runtime_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x43afadee	ieee80211_radiotap_iterator_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2c2b5a0d	iwl_fw_dbg_stop_restart_recording	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xce0c6460	iwl_phy_db_set_section	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x4193bfb9	ieee80211_tx_status_irqsafe	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xb916e086	ieee80211_find_sta	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xae969fca	cfg80211_sta_opmode_change_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x28df5bdb	cfg80211_bss_color_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xfbce767a	cfg80211_ibss_joined	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x1ce2497f	reg_query_regdb_wmm	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x153b6758	wdev_chandef	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xef7a7e83	ieee80211_stop_queues	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xdba126c1	reg_initiator_name	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x96632f1d	cfg80211_tdls_oper_request	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x06ca71fd	cfg80211_chandef_create	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xdcf6fecf	cfg80211_port_authorized	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x42734de6	ieee80211_nullfunc_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x89af1a81	ieee80211_stop_rx_ba_session	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x53c2d780	cfg80211_cqm_beacon_loss_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa3dd131c	iwl_parse_eeprom_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x2f6ea4b9	ieee80211_radar_detected	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x58105489	regulatory_set_wiphy_regd_sync	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x7f146961	ieee80211_rts_duration	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xcf0ea27a	ieee80211_ave_rssi	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x3562f934	ieee80211_gtk_rekey_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x391eda45	ieee80211_get_tkip_rx_p1k	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9b02de5b	iwl_uefi_get_step_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x3f37c1b7	_iwl_dbg_tlv_time_point	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xeb6ce61d	iwl_write_direct32	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xa0e0df3f	ieee80211_unregister_hw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xb624869b	ieee80211_get_buffered_bc	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x991a0ca0	ieee80211_parse_p2p_noa	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc1fef6d6	ieeee80211_obss_color_collision_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x46ff300c	ieee80211_get_response_rate	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb833bc79	cfg80211_cqm_pktloss_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x7681be04	ieee80211_reserve_tid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x23401da5	cfg80211_tx_mgmt_expired	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xdf90b694	iwl_read_prph_no_grab	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x4717b099	iwl_dnt_dispatch_handle_nic_err	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xaf4c42d4	cfg80211_sched_scan_stopped	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbb5394e8	cfg80211_get_bss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x95ebbd4f	cfg80211_gtk_rekey_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x351caf7d	cfg80211_probe_status	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x4ebc30ab	cfg80211_report_obss_beacon_khz	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x5f339ffc	__iwl_info	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc0c4dd87	__cfg80211_radar_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x01227f89	ieee80211_sta_set_buffered	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xef28114d	iwl_acpi_get_tas	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xd97eaad4	cfg80211_chandef_compatible	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x18f314b5	iwl_dnt_dev_if_read_rx	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x4d888bc1	cfg80211_calculate_bitrate	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa7bf5ae8	cfg80211_pmsr_complete	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
+0x37956b72	rs_pretty_print_rate	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xea1b26fc	iwl_nvm_fixups	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x2d347e22	ieee80211_send_eosp_nullfunc	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x47b775df	iwl_write64	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x1f52b6bd	ieee80211_scan_completed	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xea792270	ieee80211_remove_key	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x060975ef	cfg80211_connect_done	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x3431d859	rate_control_set_rates	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xdefd0a1b	iwl_configure_rxq	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x542e7123	iwl_clear_bits_prph	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x6ac3b460	iwl_read32	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x043d940b	ieee80211_report_low_ack	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x63dde172	cfg80211_get_iftype_ext_capa	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x9dc8ed83	ieee80211_beacon_update_cntdwn	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9bf656a6	iwl_uefi_get_sgom_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x4ce2eb2a	ieee80211_data_to_8023_exthdr	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb08b5ca6	__ieee80211_create_tpt_led_trigger	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x531bff8d	ieee80211_amsdu_to_8023s	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd2fb5b45	cfg80211_new_sta	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x72a12df1	cfg80211_shutdown_all_interfaces	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
+0x9c9d6cc2	ieee80211_register_hw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x2a70713d	ieee80211_sta_register_airtime	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xc690dcb6	ieee80211_update_mu_groups	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xfe9c6611	ieee80211_sta_ps_transition	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x826db0ed	iwl_acpi_is_ppag_approved	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xbd062654	iwl_read_direct32	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xd58ee911	ieee80211_find_sta_by_ifaddr	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x9f4784a0	iwl_fw_lookup_notif_ver	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	
+0x752cbbd6	cfg80211_report_wowlan_wakeup	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xeb4cd1ed	cfg80211_get_station	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa35f2861	iwl_phy_db_get_section_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xa186d87f	iwl_get_cmd_string	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x603b08c4	ieee80211_beacon_cntdwn_is_complete	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xd3a0037c	iwl_drv_get_dev_container	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x6c376caf	iwl_sar_geo_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe5752af3	ieee80211_get_bssid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xdcdd8afe	ieee80211_txq_get_depth	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x385bde0f	wiphy_rfkill_set_hw_state_reason	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x6d994fd7	ieee80211_rx_ba_timer_expired	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x1879fcbd	bridge_tunnel_header	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2b61a5fc	ieee80211_chswitch_done	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x632f7806	iwl_sar_geo_support	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xb0be398c	ieee80211_get_tkip_p2k	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xadb7397b	ieee80211_connection_loss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x2eeedb47	_dmi_check_system	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x063e2408	iwl_fw_dbg_error_collect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc59f197e	wiphy_unregister	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x58c03948	cfg80211_iftype_allowed	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x1a07215f	iwl_fw_lookup_cmd_ver	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	
+0x8c5fa651	_dmi_match	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x5fbe4d19	iwl_read_ppag_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x18529481	cfg80211_background_cac_abort	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x59b0424a	iwl_dnt_free	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x8ab8e177	ieee80211_wake_queue	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x7318fbf6	iwl_poll_bit	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe0eb5838	iwl_init_notification_wait	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x07d7b24d	__ieee80211_get_rx_led_name	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xaaafbd3e	__tracepoint_iwlwifi_dev_ucode_cont_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0xa8386742	cfg80211_nan_func_terminated	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xdc27a75a	ieee80211_tx_status_8023	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x201afa00	ieee80211_beacon_loss	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xf5afdf67	cfg80211_auth_timeout	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x09a945fb	iwl_acpi_get_pwr_limit	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x46f21679	ieee80211_free_txskb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xb2e94c65	ieee80211_rx_irqsafe	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x07d35d9b	iwl_write_direct64	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xab08ce59	iwl_write32	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x54bad2f1	ieee80211_iterate_active_interfaces_atomic	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x4651ac23	cfg80211_check_combinations	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xda8cf58e	ieee80211_enable_rssi_reports	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xea78f497	__iwl_err	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x9038811a	iwl_rfi_guid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xefa624ec	cfg80211_disconnected	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x84aeeef1	cfg80211_nan_match	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa1c93743	ieee80211_tx_prepare_skb	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x874c77de	iwl_fw_rate_idx_to_plcp	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc81ee76e	ieee80211_iterate_active_interfaces_mtx	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x19e134ac	cfg80211_ft_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x07ba8faa	iwl_fw_dbg_collect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xf46b6b6b	cfg80211_any_usable_channels	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd004ea88	ieee80211_key_mic_failure	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x254cea32	cfg80211_unregister_wdev	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x6ab46729	ieee80211_iter_chan_contexts_atomic	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0xcfbd9245	iwl_pnvm_load	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x019a45c5	cfg80211_scan_done	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x21007740	cfg80211_inform_bss_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb07ee682	ieee80211_proberesp_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x8d520287	iwl_write_prph64_no_grab	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xfd8a701b	cfg80211_rx_unprot_mlme_mgmt	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xc4b4fc27	cfg80211_chandef_valid	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x716b2c66	cfg80211_assoc_comeback	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x208eeac1	iwl_write8	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xd62bb5a3	ieee80211_cqm_beacon_loss_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xf40bc2f5	ieee80211_operating_class_to_band	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb37b318c	iwl_rs_pretty_bw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xc1edd55a	ieee80211_get_fils_discovery_tmpl	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x69b18f43	rfc1042_header	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x014c61a5	cfg80211_rx_mgmt_ext	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xf4cfd51a	ieee80211_txq_airtime_check	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xbb4dd1dc	iwl_fw_dbg_stop_sync	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xa4cfe925	cfg80211_bss_iter	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x6a121786	cfg80211_inform_bss_frame_data	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbf61783e	cfg80211_reg_can_beacon_relax	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd9bfac01	ieee80211_free_hw	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x2e0a3990	cfg80211_pmksa_candidate_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd56d55f3	ieee80211_get_mesh_hdrlen	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x2eddfa70	ieee80211_pspoll_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x403f4356	ieee80211_rts_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x6c49291f	iwlwifi_mod_params	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xda994e91	wiphy_new_nm	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x8db89073	iwl_acpi_get_ppag_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x64f535b9	regulatory_pre_cac_allowed	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xb58b202e	ieee80211_request_smps	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x35033c81	iwl_phy_db_free	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xfc62dafb	freq_reg_info	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x42a66caa	iwl_get_shared_mem_conf	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xae4a0739	__traceiter_iwlwifi_dev_ucode_wrap_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0x7acb86ed	ieee80211_radiotap_iterator_next	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x12bf6d54	ieee80211_iterate_interfaces	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x3643b80f	ieee80211_chandef_to_operating_class	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xca05632c	iwl_acpi_get_object	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xee9dbf9d	ieee80211_gtk_rekey_add	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x5bd85db4	iwl_sar_get_ewrd_table	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xd64df52d	iwl_acpi_get_dsm_u8	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x206bcc0f	ieee80211_iterate_stations	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x39440a9a	cfg80211_ch_switch_started_notify	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xebda7476	ieee80211_sta_eosp	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x5569899a	ieee80211_tx_status	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x69994c98	iwl_set_soc_latency	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x31f94d9b	cfg80211_stop_iface	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x0b997a7c	ieee80211_tx_status_ext	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x2ae3d9f7	ieee80211_send_bar	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x32306130	ieee80211_probereq_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x76084bee	iwl_finish_nic_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x8eb2e86a	ieee80211_rate_control_unregister	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x4325e5b3	ieee80211_iter_keys	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x927bd70b	iwl_tm_gnl_send_rx	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x90f1f054	ieee80211_calc_tx_airtime	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x6a7bf0c3	iwl_acpi_get_dsm_u32	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xfc30f250	cfg80211_get_drvinfo	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x19f37f0d	ieee80211_update_p2p_noa	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x9ddd8503	ieee80211_ap_probereq_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe60c81e9	ieee80211_resume_disconnect	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x84189c6d	iwl_dnt_start	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xa77f72b6	cfg80211_pmsr_report	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
+0x36a862e9	__tracepoint_iwlwifi_dev_ucode_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	
+0x3aca71a1	cfg80211_get_ies_channel_number	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xa88bb97f	regulatory_set_wiphy_regd	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xddfa8d72	ieee80211_ctstoself_get	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xaeb9a917	ieee80211_get_key_rx_seq	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0xe89670a2	wiphy_rfkill_start_polling	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd9600f38	regulatory_hint	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xbafc8994	iwl_wait_notification	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x2e8ad518	wiphy_apply_custom_regulatory	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x504e2bd1	iwl_read_external_nvm	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x68cd5b8b	cfg80211_rx_control_port	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x1dab0efe	ieee80211_set_key_rx_seq	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL_GPL	
+0x49e0135d	iwl_new_rate_from_v1	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xef14eb98	iwl_dbg_tlv_del_timers	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xe30edfbb	__ieee80211_schedule_txq	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x64f3c896	cfg80211_del_sta_sinfo	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x9ddd1818	iwl_phy_db_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x8114c662	ieee80211_get_channel_khz	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xefcd907e	cfg80211_rx_assoc_resp	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x8422d499	iwl_free_fw_paging	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x17e2fe57	cfg80211_rx_unexpected_4addr_frame	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x55a88d8f	iwl_read_eeprom	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0x0a7cf014	cfg80211_michael_mic_failure	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0xd151795f	cfg80211_reg_can_beacon	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x92d266cc	iwl_dnt_init	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL_GPL	IWLWIFI
+0xf6de2b67	ieee80211_get_unsol_bcast_probe_resp_tmpl	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/mac80211/mac80211	EXPORT_SYMBOL	
+0x4b9abe62	cfg80211_bss_flush	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/net/wireless/cfg80211	EXPORT_SYMBOL	
+0x970bf4ef	__SCK__tp_func_iwlwifi_dev_ucode_event	/l4t/source/cig-modules/backport-iwlwifi/iwlwifi-stack-dev/drivers/net/wireless/intel/iwlwifi/iwlwifi	EXPORT_SYMBOL	

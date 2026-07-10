@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config MARVELL_10G_PHY
+				tristate "Marvell Alaska 10Gbit PHYs"
+				help
+				  Support for the Marvell Alaska PHYs MV88E2110, MV88X3310, MV88X3610
+				  and MV88X3510.
