@@ -4,7 +4,7 @@
 # 支持下列摄像头
 
 1. GC3-ISX031-GMSL2-Hxxx
-<img width="555" height="429" alt="image" src="https://github.com/user-attachments/assets/ba26985a-01fc-4f67-8de7-b43bfff319e3" />
+<img width="774" height="1032" alt="image" src="https://github.com/user-attachments/assets/b8a0bd9b-e2db-47ec-ab41-494c18f033ad" />
 
 2. OX03C10 MAX9295 GMSL2车载相机 quanta-J
 <img width="636" height="741" alt="image" src="https://github.com/user-attachments/assets/2a864e7f-46e6-449d-a208-759b4c603b72" />
